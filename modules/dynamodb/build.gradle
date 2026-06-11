@@ -1,0 +1,7 @@
+description = "Testcontainers :: DynamoDB Local"
+
+dependencies {
+    api project(':testcontainers')
+
+    testImplementation 'software.amazon.awssdk:dynamodb:2.31.15'
+}
